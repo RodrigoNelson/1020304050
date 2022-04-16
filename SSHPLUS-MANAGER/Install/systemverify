@@ -1,0 +1,26 @@
+#!/bin/bash
+
+## sshd back
+cp /etc/ssh/sshd_config /etc/ssh/sshd_back > /dev/null 2>&1
+
+## Acceso Rapido
+echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
+
+## Version
+rm -rf $HOME/versao*; wget https://www.dropbox.com/s/8ml8qsenw1skfh0/versao > /dev/null 2>&1
+
+## Reinstalar
+echo "apt-get update -y; apt-get upgrade -y; wget https://www.dropbox.com/s/hyq3dpe8d7uy2oi/Plus; chmod 777 Plus; ./Plus" > /bin/sshplus && chmod +x /bin/sshplus > /dev/null 2>&1
+
+## Menu
+wget -O /bin/menuV1 https://www.dropbox.com/s/iedrquv09ilcs58/Install > /dev/null 2>&1
+chmod +x /bin/menuV1 > /dev/null 2>&1
+wget -O /bin/menuV2 https://www.dropbox.com/s/7mfcdh2ud9syf3l/Install > /dev/null 2>&1
+chmod +x /bin/menuV2 > /dev/null 2>&1
+wget -O /bin/menuV3 https://www.dropbox.com/s/4fxygfbufi0xg7o/Install > /dev/null 2>&1
+chmod +x /bin/menuV3 > /dev/null 2>&1
+
+## Systemverify
+rm -rf $HOME/systemverify* > /dev/null 2>&1
+
+#fim

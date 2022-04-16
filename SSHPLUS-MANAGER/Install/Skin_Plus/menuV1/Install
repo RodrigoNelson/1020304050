@@ -1,0 +1,13 @@
+#!/bin/bash
+#Menu Original
+
+#Donwload
+wget -O /bin/menu https://www.dropbox.com/s/9wcgn4lnhbr4oar/menu > /dev/null 2>&1
+
+#Permisos
+chmod +x /bin/menu
+
+#Ejecucion
+/bin/menu
+
+#fim
