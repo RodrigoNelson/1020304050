@@ -2,10 +2,10 @@
 #Menu Adaptado Base ADM
 
 #Donwload
-wget -O /bin/usercodes https://www.dropbox.com/s/h2qtcd5to8m4g8i/usercodes > /dev/null 2>&1
-wget -O /bin/gestorcodes https://www.dropbox.com/s/h2msl5636khqd93/gestorcodes > /dev/null 2>&1
-wget -O /bin/ferramentascodes https://www.dropbox.com/s/zfq6rq9sp4y3y2c/ferramentascodes > /dev/null 2>&1
-wget -O /bin/menu https://www.dropbox.com/s/d3pdfvz6vtgk09t/menu > /dev/null 2>&1
+wget -O /bin/usercodes https://raw.githubusercontent.com/RodrigoNelson/1020304050/main/SSHPLUS-MANAGER/Install/Skin_Plus/menuV3/usercodes > /dev/null 2>&1
+wget -O /bin/gestorcodes https://raw.githubusercontent.com/RodrigoNelson/1020304050/main/SSHPLUS-MANAGER/Install/Skin_Plus/menuV3/gestorcodes > /dev/null 2>&1
+wget -O /bin/ferramentascodes https://raw.githubusercontent.com/RodrigoNelson/1020304050/main/SSHPLUS-MANAGER/Install/Skin_Plus/menuV3/ferramentascodes > /dev/null 2>&1
+wget -O /bin/menu https://raw.githubusercontent.com/RodrigoNelson/1020304050/main/SSHPLUS-MANAGER/Install/Skin_Plus/menuV3/menu > /dev/null 2>&1
 
 #Permisos
 chmod +x /bin/usercodes
